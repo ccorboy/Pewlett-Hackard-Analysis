@@ -28,3 +28,13 @@ This part of the analysis calls for the employees born during the year 1965. The
 
 
 ## Summary
+### The Impact of the Silver Tsunami
+Using the SUM () clause on the "retiring_titles" table, we see that there are 90,398 employees nearing retiremnt in the near future. By implementing the COUNT() clause on the "mentorship_eligibility" table, we see only 1,549 of those employees are eligible for the mentorship program. That leaves 88,849 employees ready to retiring. If all available positions are filled each mentor would have up to 54 employees for the next generation to assist.  
+
+In order to help Pewlett Hackard combat this dilemma, we can change the query for the "mentorship_eligibility" by adding employees born during the years 1964-1965. This will add many more potential mentors, in total: 19,905. Each mentor would have 4-5 new employees to guide from the new generation. By adjusting the query after the conditional AND () to the year 1964, we can generate a new table called "extended_mentors". 
+
+![image](Resources/Extended_Mentors.png)
+
+Inserting the COUNT () clause on the new table "extended_mentors" lets us see that their are now 19,905 new mentors which will take on far fewer incoming employees in the mentorship program at the company. If Pewlett Hackard extend the mentorship program to employees born during the years 1964-1965 it will be well equipped to handle the almost 90,000 new employees after the impact of the devastating "Silver Tsunami". 
+
+![image](Resources/Ext_mentors_count.png)
